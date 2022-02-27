@@ -7,13 +7,13 @@ Creating a new account.
 Endpoint:  `[base_url]/accounts/create/`
 
 JSON Data:  
-`office_name` String  
-`username` String  
-`password` String  
-`first_name` String  
-`last_name` String  
-`email` String  
-`subscription_type` Integer (Optional)
+- `office_name` String  
+- `username` String  
+- `password` String  
+- `first_name` String  
+- `last_name` String  
+- `email` String  
+- `subscription_type` Integer (Optional)
 
 * To get the options for subscription types, fetch it from its [api](/pages/subscription_types.md).
 
@@ -30,4 +30,4 @@ Update an account detail.
 Endpoint:  `[base_url]/accounts/update/`
 
 JSON Data:  
-`office_name` String (Optional)
+- `office_name` String (Optional)
